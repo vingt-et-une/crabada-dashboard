@@ -5,3 +5,5 @@ scraper.py
 sample.json
 analysis.ipynb
 .DS_Store
+*.pyc
+*.ipynb
