@@ -84,10 +84,10 @@ def crab_stat(id):
   return fig
 
 from jupyter_dash import JupyterDash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc
+from dash import html
 from dash.dependencies import Input, Output, State
-import dash_table
+from dash import dash_table
 
 app = JupyterDash(__name__)
 Intro = """"
