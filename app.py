@@ -90,6 +90,8 @@ from dash.dependencies import Input, Output, State
 from dash import dash_table
 
 app = JupyterDash(__name__)
+server = app.server
+
 Intro = """"
 # Crabada Market Guide v.1.0
 A basic guide to the crabada economy 
