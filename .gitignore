@@ -1,0 +1,7 @@
+/deck_pics
+/env
+*.pdf
+scraper.py
+sample.json
+analysis.ipynb
+.DS_Store
