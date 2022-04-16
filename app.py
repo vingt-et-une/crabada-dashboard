@@ -141,6 +141,10 @@ app.layout = html.Div([
     style={'width': '49%', 'display': 'inline-block', 'verticalAlign': 'top'}),
     html.H2("Most Sought Stats and Crabada Stat Checker"),
     html.Div(
+        dcc.Markdown("""Move the slider to check the different stats 
+                        or input a crab id to check its stat distribution"""),
+    ),
+    html.Div(
           dcc.Graph(figure=stats_hist),
           style={'width': '49%', 'display': 'inline-block','verticalAlign': 'top'},
     ),
